@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="https://www.pgalums.com/wp-content/uploads/2019/10/random.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="main">
+        <div id="navbar">
+            <div class="logo">
+                <img src="https://www.pgalums.com/wp-content/uploads/2019/10/random.png">
+            </div>
+
+            <div class="search-box">
+                <input type="search" placeholder="Search" id="search-input">
+                <button id="search-btn"><i class="ri-search-line"></i></button>
+            </div>
+
+            <div id="nav-items">
+                <span class="catg-btn active" data-category="all">All Products</span>
+                <span class="catg-btn" data-category="electronics">Electronics</span>
+                <span class="catg-btn" data-category="clothing">Clothing</span>
+                <span class="catg-btn" data-category="home">Home</span>
+                <span class="catg-btn" data-category="garden">Garden</span>
+            </div>
+
+            <div id="sidebar">
+                <div id="sidebar-link">
+                    <span class="catg-btn active" data-category="all">All Products</span>
+                    <span class="catg-btn" data-category="electronics">Electronics</span>
+                    <span class="catg-btn" data-category="clothing">Clothing</span>
+                    <span class="catg-btn" data-category="home">Home</span>
+                    <span class="catg-btn" data-category="garden">Garden</span>
+                </div>
+                <i id="close" class="ri-close-line"></i>
+            </div>
+            
+            <i id="open" class="ri-menu-3-line"></i>
+        </div>
+
+        <div id="container">
+            <div class="card" id="product" data-category="electronics">
+                <div class="card-title">
+                    <h2>Mobile</h2>
+                </div>
+                <a href="#">
+                    <img src="https://www.lavamobiles.com/images2/yuva-3-mobile-sale.jpg">
+                </a>
+            </div>
+            <div class="card" id="product" data-category="electronics">
+                <a href="#">
+                    <img
+                        src="https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India-1200x675.jpg">
+                </a>
+                <div class="card-title">
+                    <h2>Laptops</h2>
+                </div>
+            </div>
+            <div class="card" id="product" data-category="clothing">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                </a>
+                <div class="card-title">
+                    <h2>Women's Fashion</h2>
+                </div>
+            </div>
+            <div class="card" id="product" data-category="clothing">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                </a>
+                <div class="card-title">
+                    <h2>Men's Fashion</h2>
+                </div>
+            </div>
+            <div class="card" id="product" data-category="garden">
+                <a href="#">
+                    <img src="https://m.media-amazon.com/images/I/91j45J+5cSL._SX679_.jpg">
+                </a>
+                <div class="card-title">
+                    <h2>Garden</h2>
+                </div>
+            </div>
+            <div class="card" id="product" data-category="home">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/2950003/pexels-photo-2950003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                </a>
+                <div class="card-title">
+                    <h2>Home</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
